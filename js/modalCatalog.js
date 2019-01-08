@@ -1,6 +1,6 @@
 var buy = document.querySelectorAll('.buy');
 var modalCatalog = document.querySelector('.modal-catalog');
-var modalCatalogClose = modalCatalog.querySelector('.modal-catalog-close');
+var modalCatalogClose = document.querySelector('.modal-catalog-close');
 
 for ( var item = 0; item < buy.length; item++ ) {
   buy[item].addEventListener('click', function(evt) {
