@@ -1307,7 +1307,7 @@ input[type="radio"].visually-hidden {
 .services-slider-controls:after {
     content: "";
     position: absolute;
-    top: 0px;
+    top: -40px;
     left: 230px;
     width: 10px;
     height: 272px;
@@ -1329,6 +1329,11 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
   font-weight: 700;
   border-bottom: 1px solid #4e637c;
+  color: #ffffff;
+}
+
+.services-slider-controls .services-slider-controls-item:hover {
+  background-color: #293449;
 }
 
 .services-slider-controls .services-slider-controls-item:last-child {
@@ -1389,6 +1394,7 @@ input[type="radio"].visually-hidden {
 #service-2:checked ~ .services-slider-controls .services-slider-controls-item--2,
 #service-3:checked ~ .services-slider-controls .services-slider-controls-item--3 {
   background-color: #ffffff;
+  color: #32425c;
 }
 
 .services-slider-title {
